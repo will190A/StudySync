@@ -1,0 +1,39 @@
+src/
+├── assets/                # 静态资源
+├── components/            # 通用组件
+│   ├── common/
+│   │   ├── ProgressRing.jsx  # 环形进度条
+│   │   ├── CountdownTimer.jsx # 倒计时组件
+│   │   └── QuestionCard.jsx   # 题目卡片
+│   └── layout/
+│       ├── Header.jsx     # 顶部导航
+│       └── Sidebar.jsx    # 侧边栏
+├── pages/
+│   ├── practice/          # 题库练习
+│   │   ├── DailyPractice.jsx  # 每日一练
+│   │   ├── CustomPractice.jsx # 自定义刷题
+│   │   └── WrongReview.jsx    # 错题再练
+│   ├── notebook/          # 错题本
+│   │   ├── WrongQuestions.jsx # 错题列表
+│   │   └── Analysis.jsx       # 错题分析
+│   ├── report/            # 学习报告
+│   │   ├── Dashboard.jsx      # 数据看板
+│   │   └── WeakPoints.jsx     # 薄弱点分析
+│   ├── plan/              # 学习计划
+│   │   ├── AIGenerate.jsx     # AI生成计划
+│   │   └── CustomPlan.jsx     # 自定义计划
+│   └── user/              # 用户中心
+│       ├── Profile.jsx        # 个人资料
+│       ├── CheckIn.jsx        # 打卡
+│       └── Notes.jsx          # 学习笔记
+├── services/              # API服务
+│   ├── api.js             # axios封装
+│   ├── auth.js            # 认证相关
+│   └── question.js        # 题目相关
+├── store/                 # 状态管理
+│   ├── userSlice.js       # 用户状态
+│   └── questionSlice.js   # 题目状态
+├── utils/                 # 工具函数
+│   ├── date.js            # 日期处理
+│   └── chart.js           # 图表工具
+└── App.js                 # 主入口
